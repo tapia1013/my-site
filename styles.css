@@ -3,3 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  /* background-color: red; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 50px;
+}
+
+header a h2 {
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-weight: 500;
+}
