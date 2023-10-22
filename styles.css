@@ -12,7 +12,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #787878;
 }
 
 header {
@@ -40,4 +40,8 @@ nav a {
   padding: 5px 10px;
   margin-left: 10px;
   font-weight: 500;
+}
+
+nav a:hover {
+  color: #333333;
 }
