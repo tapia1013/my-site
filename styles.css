@@ -7,8 +7,34 @@
 html,
 body {
   font-family: 'Roboto', sans-serif;
-  color: #000;
+  /* color: #000; */
 }
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: dodgerblue; */
+  border: 1px solid white;
+}
+
+.box>h1 {
+  font-size: 3rem;
+  padding: 25px 50px;
+}
+
 
 a {
   text-decoration: none;
